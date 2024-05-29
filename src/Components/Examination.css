@@ -1,0 +1,131 @@
+.examdetail {
+    color: white;
+    font-family: Montserrat;
+    background-color: #171A24;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.inexamdetail {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+
+.detailhead {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.examcomp {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px;
+    justify-content: left;
+}
+
+.compimg {
+    display: flex;
+    margin-right: 80px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.compimg img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.compgrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+}
+
+.grid1,
+.grid2 {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.grid1 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.singlecomp {
+    display: flex;
+    flex-direction: column;
+    background-color: #2A2E36;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    min-width: 100px;
+    padding: 50px 30px;
+}
+
+.singlecomp:hover {
+    background-color: goldenrod;
+    transition: background-color .5s ease;
+}
+
+.singleone {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.singletwo {
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .inexamdetail {
+        margin: 30px 0px;
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+    }
+
+    .compimg {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .compgrid {
+        width: 100%;
+        margin: 0;
+    }
+
+    .grid1,
+    .grid2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .grid1 {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .inexamdetail {
+        width: 95%;
+    }
+
+    .examcomp {
+        flex-direction: column;
+        align-items: center;
+    }
+}

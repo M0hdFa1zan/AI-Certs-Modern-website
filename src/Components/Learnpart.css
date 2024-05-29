@@ -1,0 +1,152 @@
+.learndetail {
+    color: white;
+    font-family: Montserrat;
+    background-color: #171A24;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.inlearndetail {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    margin: 80px 0px;
+}
+
+.learnhead {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.learncomp {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px;
+    justify-content: left;
+    align-items: center;
+}
+
+.learngrid {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-right: 63px;
+}
+
+.gridone,
+.gridtwo {
+    display: flex;
+    width: 100%;
+}
+
+.gridone {
+    margin-bottom: 40px;
+}
+
+.singlelearn {
+    display: flex;
+    width: 300px;
+    min-width: 100px;
+}
+
+.gridlogo {
+    display: flex;
+    width: 40%;
+    align-items: flex-start;
+}
+
+.gridlogo img {
+    width: 100%;
+}
+
+.gridheading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+}
+
+.gridlogo {
+    margin-right: 20px;
+}
+
+.griddetail {
+    display: flex;
+    width: 100%;
+    color: #A9A7B0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.learnimg {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.learnimg img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .learnhead {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .inlearndetail {
+        align-items: center;
+        width: 95%;
+        margin: 30px 0px;
+    }
+
+    .learncomp {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .learngrid {
+        width: 95%;
+        margin-right: 0px;
+    }
+
+    .gridone,
+    .gridtwo {
+        width: 100%;
+        margin-right: 0px;
+        flex-direction: column;
+    }
+
+    .gridone {
+        margin-bottom: 0px;
+    }
+
+    .singlelearn {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .gridlogo {
+        width: 23%;
+    }
+
+    .gridheading {
+        margin-bottom: 10px;
+    }
+
+    .learnimg {
+        width: 90%;
+        margin-top: 20px;
+    }
+}

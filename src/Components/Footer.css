@@ -1,0 +1,153 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-image: url("../Components/tech.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.infoot {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-top: 1px solid #2A2E36;
+}
+
+.footup {
+    display: flex;
+    padding: 80px 0px;
+    justify-content: space-between;
+    border-bottom: 1px solid #2A2E36;
+}
+
+.footone {
+    display: flex;
+    width: 39%;
+}
+
+.infootone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+}
+
+.footimage {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.footimage img {
+    width: 100%;
+}
+
+.newsletter {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.inputarea {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #2A2E36;
+}
+
+.inputimage {
+    display: flex;
+}
+
+.realinput {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+input {
+    color: #A9A7B0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    width: 95%;
+    background-color: transparent;
+}
+
+.inputarrow {
+    display: flex;
+}
+
+.iconarea {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.foothead {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footdetail {
+    color: #A9A7B0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.footdetail div {
+    margin-bottom: 5px;
+}
+
+.footdown {
+    display: flex;
+    color: #A9A7B0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 40px 0px;
+}
+
+@media only screen and (max-width: 992px) {
+    .infoot {
+        width: 95%;
+    }
+
+    .footup {
+        flex-direction: column;
+    }
+
+    .footone,
+    .foottwo,
+    .footthree {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footfour {
+        text-align: center;
+    }
+
+    .infootone {
+        align-items: center;
+    }
+
+    .footimage {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    .iconarea {
+        width: 70%;
+    }
+}

@@ -1,0 +1,95 @@
+.module {
+    color: white;
+    display: flex;
+    background-color: black;
+    font-family: Montserrat;
+    justify-content: center;
+}
+
+.inmodule {
+    display: flex;
+    margin: 80px 0px;
+    width: 67%;
+}
+
+.moduletext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.modulehead {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.moduledetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.minus {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.minusheading,
+.plus {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.minuspara {
+    color: #A9A7B0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 20px 0px;
+}
+
+.minus {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    border-bottom: 1px solid #2A2E36;
+}
+
+.minusheading {
+    display: flex;
+    align-items: center;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-bottom: 1px solid #2A2E36;
+    border-left: none;
+    border-right: none;
+}
+
+.signs {
+    display: flex;
+}
+
+.last {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .inmodule {
+        width: 95%;
+    }
+
+    .modulehead {
+        font-size: 32px;
+        text-align: center;
+    }
+}

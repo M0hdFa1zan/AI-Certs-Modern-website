@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 0px;
+    background-color: transparent;
+}
+
+.innav {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+
+.logo img {
+    display: flex;
+    width: 100%;
+}
+
+.tabs {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.tabs div:hover {
+    color: goldenrod;
+}
+
+.three {
+    color: goldenrod;
+}
+
+.getbutton {
+    display: flex;
+    width: 9%;
+    background-color: orange;
+}
+
+.getbutton button {
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #CFA935;
+    padding: 12px 24px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(206, 147, 0);
+}
+
+@media only screen and (max-width: 992px) {
+
+    .tabs,
+    .getbutton {
+        display: none;
+    }
+
+    .innav {
+        width: 95%;
+    }
+
+}

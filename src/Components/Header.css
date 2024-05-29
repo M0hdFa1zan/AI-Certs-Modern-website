@@ -1,0 +1,211 @@
+.header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Montserrat;
+    background: url("https://s3-alpha-sig.figma.com/img/da60/13c4/72fea9683c20c6e146e321e57cb05989?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BxYF15EuCHr1PhaqUGXBsvB~fQVTxfjmMzASpUCKBIQaxZ9WIDplVCtfNwbCWdLyQXXGH-ooz4N9rN-9oPqf~HU8yqL-t~7sbfbrjDe25cFMcIJdselTkWjMMOhfVxcxetv-N~S2FVCB~FoOsDO1whx4VuX90es5rUQemm0in8zhXil8hONFDKYP8XhHM~3Rg57IbbaoLongJ5C4rXpdFeh0WAS8vWpR6twYHtBDp3-qeMF97Tf3xmntg6jK5kLelOVt64NQmYI-D3Wl0NbbZBvC43l1AHN8i-QnvOSoSmw3rrxyYQr7T7Z5jTaCcQEfhWlscAVhJtvgdJTP~-WqDA__");
+    background-repeat: no-repeat;
+}
+
+.inhead {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.aiarea {
+    display: flex;
+    width: 66%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.aitextarea {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.heading1,
+.heading2 {
+    display: flex;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.heading1 {
+    color: goldenrod;
+}
+
+.heading1 p {
+    color: white;
+}
+
+.heading2 {
+    margin-bottom: 10px;
+}
+
+.heading2 p {
+    position: relative;
+    font-size: 40px;
+    bottom: 9px;
+}
+
+.certno,
+.aitext {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFF;
+    margin: 20px 0px;
+}
+
+.aitext {
+    width: 80%;
+    color: var(--Grey, #A9A7B0);
+
+}
+
+.aibutton {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.button1,
+.button2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.button1 {
+    color: white;
+    padding: 14px 24px;
+    background: var(--Golden, #CFA935);
+    border: none;
+}
+
+.button2 {
+    color: var(--Golden, #CFA935);
+    padding: 12px 24px;
+    border: 2px solid var(--Golden, #CFA935);
+    background: transparent;
+}
+
+.aiimage {
+    display: flex;
+    align-items: center;
+}
+
+.aiimage img {
+    width: 100%;
+}
+
+.examarea {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 15px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid #2A2E36;
+}
+
+.inexamarea {
+    color: #FFF;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+
+.examtabs {
+    display: flex;
+    width: 62%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.examtabs div:hover {
+    color: goldenrod;
+}
+
+.exambutton button {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--Golden, #CFA935);
+    padding: 12px 24px;
+    border: none;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(206, 147, 0);
+    transition: background-color .5s ease;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .aiarea {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .aitextarea {
+        width: 95%;
+    }
+
+    .heading1,
+    .heading2 {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 52px;
+        margin-bottom: 0px;
+    }
+
+    .heading2 p {
+        font-size: 32px;
+    }
+
+    .certno {
+        margin-bottom: 0px;
+    }
+
+    .aitext {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .aibutton {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .examarea {
+        display: flex;
+        align-items: center;
+    }
+
+    .inexamarea {
+        display: flex;
+        width: 45%;
+        justify-content: center;
+    }
+
+    .examtabs {
+        flex-direction: column;
+        width: 70%;
+    }
+
+}
